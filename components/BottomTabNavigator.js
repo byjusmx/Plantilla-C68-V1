@@ -13,23 +13,23 @@ export default class BottomTabNavigator extends Component {
       <NavigationContainer>
         <Tab.Navigator>
           {/* 
-            <TabScreen name="Ride" component={RideScreen} />
-            <TabScreen name="Ride History" component={RideHistoryScreen} />
+            <TabScreen name="Viaje" component={RideScreen} />
+            <TabScreen name="Historial de viajes" component={RideHistoryScreen} />
           */}
 
           {/* 
-            <Tab.Screen name="Ride" />
-            <Tab.Screen name="Ride History" />
+            <Tab.Screen name="Viaje" />
+            <Tab.Screen name="Historial de viajes" />
           */}
 
           {/* 
-            <Screen name="Ride" component={RideScreen} />
-            <Screen name="Ride History" component={RideHistoryScreen} />
+            <Screen name="Viaje" component={RideScreen} />
+            <Screen name="Historial de viajes" component={RideHistoryScreen} />
           */}
 
           {/* 
-            <Tab.Screen name="Ride" component={RideScreen} />
-            <Tab.Screen name="Ride History" component={RideHistoryScreen} />
+            <Tab.Screen name="Viaje" component={RideScreen} />
+            <Tab.Screen name="Historial de viajes" component={RideHistoryScreen} />
           */}
         </Tab.Navigator>
       </NavigationContainer>
